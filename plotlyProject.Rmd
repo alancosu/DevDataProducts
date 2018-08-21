@@ -1,0 +1,18 @@
+---
+title: "Plotly Project"
+author: "Alan O'S"
+date: "21 August 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+##Milage v Disp. by Transmission Type
+
+```{r, message=FALSE, warning=FALSE}
+library(plotly)
+plot_ly(data = mtcars, x = ~disp, y = ~mpg, color = ~factor(am, labels = c("auto", "man")), type = "scatter")
+```
+
