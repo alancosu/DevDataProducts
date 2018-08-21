@@ -1,0 +1,23 @@
+---
+title: "LeafletProject"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Created: 21 August 2018  
+
+##Ireland!
+
+```{r leaflet map}
+library(leaflet)
+firstMap <- leaflet() %>%
+    addTiles() %>%
+    setView(-6.26616, 53.35014, zoom = 6.5)
+firstMap
+```
+
