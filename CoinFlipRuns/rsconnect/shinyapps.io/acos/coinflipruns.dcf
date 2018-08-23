@@ -1,0 +1,10 @@
+name: coinflipruns
+title:
+username:
+account: acos
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 406246
+bundleId: 1550656
+url: https://acos.shinyapps.io/coinflipruns/
+when: 1535032729.44152
